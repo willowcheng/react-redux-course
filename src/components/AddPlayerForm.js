@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react'
 
 export default class AddPlayerForm extends Component {
   static propTypes: {
-    addPlayer: React.PropTypes.func.isRequired,
+    addPlayer: PropTypes.func.isRequired,
   }
 
   state = {
