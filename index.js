@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Scoreboard from './Scoreboard.js'
+import Scoreboard from './src/containers/Scoreboard.js'
 
 render(
   <Scoreboard/>,
